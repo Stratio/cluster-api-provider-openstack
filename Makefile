@@ -519,3 +519,6 @@ compile-e2e: ## Test e2e compilation
 
 .PHONY: FORCE
 FORCE:
+
+change-version:
+	hack/custom/change-version.sh $(version)
